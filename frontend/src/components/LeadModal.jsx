@@ -109,7 +109,8 @@ const LeadModal = ({ active, handleModal, token, id, setErrorMessage }) => {
               <div className="control">
                 <input
                   type="text"
-                  placeholder="Enter first name"
+
+                  placeholder="Primer nombre"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                   className="input"
@@ -122,7 +123,8 @@ const LeadModal = ({ active, handleModal, token, id, setErrorMessage }) => {
               <div className="control">
                 <input
                   type="text"
-                  placeholder="Enter last name"
+
+                  placeholder="segundo nombre"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                   className="input"
@@ -135,7 +137,8 @@ const LeadModal = ({ active, handleModal, token, id, setErrorMessage }) => {
               <div className="control">
                 <input
                   type="text"
-                  placeholder="Enter company"
+
+                  placeholder="ingrese compania"
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
                   className="input"
@@ -147,7 +150,8 @@ const LeadModal = ({ active, handleModal, token, id, setErrorMessage }) => {
               <div className="control">
                 <input
                   type="email"
-                  placeholder="Enter email"
+
+                  placeholder="datos mail"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="input"
@@ -159,7 +163,8 @@ const LeadModal = ({ active, handleModal, token, id, setErrorMessage }) => {
               <div className="control">
                 <input
                   type="text"
-                  placeholder="Enter note"
+
+                  placeholder="ingrese nota"
                   value={note}
                   onChange={(e) => setNote(e.target.value)}
                   className="input"
